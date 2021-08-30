@@ -7,7 +7,7 @@ beforeAll(async () => {
   content = readFileSync('Squelette.md', 'utf-8');
 });
 
-describe('ReadmeSuqelette', () => {
+describe('ReadmeSquelette', () => {
   text: ";;;;"
     it("should contain D'où vient l'idée de base pour ce squelette?", async () => {
         expect(content).toInclude("D'où vient l'idée de base pour ce squelette?");
