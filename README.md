@@ -6,7 +6,7 @@
 # LOG210 - Lab 0 - Tutoriel sur les technologies
 
 Cet exercice, sous forme de tutoriel, a l'objectif de vous apprendre les technologies utilisées pour le laboratoire de LOG210.
-On vous propose d'ajouter une fonctionnalité au **Jeu de Dés**, un squelette de code que votre vrai projet de LOG210 doit suivre
+On vous propose d'ajouter une fonctionnalité au **Jeu de Dés**, un squelette de code que votre vrai projet de LOG210 doit suivre.
 Le squelette est une application minimaliste permettant d'intégrer correctement plusieurs technologies (interface utilisateur, serveur web avec couches logicielles, etc.).
 En apprenant avec le squelette, vous pouvez aller plus vite, sans nécessairement tout comprendre au début.
 Vous pouvez vous concentrer sur la méthodologie d'analyse et de conception qui est le sujet principal de LOG210.
