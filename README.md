@@ -6,7 +6,7 @@
 # LOG210 - Lab 0 - Tutoriel sur les technologies
 
 Cet exercice, sous forme de tutoriel, a l'objectif de vous apprendre les technologies utilisées pour le laboratoire de LOG210.
-On vous propose d'ajouter une fonctionnalité au **Jeu de Dés**, un squelette de code que votre vrai projet de LOG210 doit suivre.
+On vous propose d'ajouter une fonctionnalité au **Jeu de Dés**, un squelette de code que votre vrai projet de LOG210 doit suivre
 Le squelette est une application minimaliste permettant d'intégrer correctement plusieurs technologies (interface utilisateur, serveur web avec couches logicielles, etc.).
 En apprenant avec le squelette, vous pouvez aller plus vite, sans nécessairement tout comprendre au début.
 Vous pouvez vous concentrer sur la méthodologie d'analyse et de conception qui est le sujet principal de LOG210.
@@ -276,7 +276,7 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.md](docs/Squelette.md). Dans cette étape, vous devez:
 
 - [ ] dans le fichier `docs/Squelette.md` qui sert de documentation, ajouter les informations pour vous identifier dans la section **Identification de l'étudiant**.  
-  Vérifier le travail avec le test, `npx jest --colors dcu-puml-lab0.test.ts`
+  Vérifier le travail avec le test, `npx jest --colors identification-lab0.test.ts`
 
 - [ ] dans le fichier `docs/Squelette.md`, ajouter le cas d'utilisation *Redémarrer* (texte) juste après [le texte du cas d'utilisation *Jouer aux dés*](docs/Squelette.md#jouer-aux-dés):
 
@@ -368,7 +368,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
   Faire un diagramme en PlantUML qui ressemble à ceci:  
   ![DSS pour le scénario Redémarrer](https://www.plantuml.com/plantuml/svg/0/NOynQWD134NxEOLmvHGXlJ6B0waCQRAGNin-6v4TpKRI52RuFl4vzcAPf4c8Yjyy_d_euC4MhSp9tqGNDYxaSPdHqoJ_8nDEtEOuLGtb0dg5JQpyjult1isWZqJzdk7EPppESbRAq82bQmg9BdWQHrfgC_gMvVMcR59fByCBflLMs0osVv0XSOvgjDaTQqEp3R5JJbqNacLXZOx6YyVwMV03FUNxmMb7zZjqHDlU9Jf0f_xI5m00 "DSS pour le scénario Redémarrer")
 
-- [ ] prendre connaissance des postconditions du contrat d'opération
+- [ ] prendre connaissance de la postcondition du contrat d'opération :
 
   > Toutes les instances de Joueur en cours ont été supprimées.
 
