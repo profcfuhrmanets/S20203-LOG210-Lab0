@@ -231,7 +231,6 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 
   - Dans le terminal, `npm start`
 
-<!-- markdown-link-check-disable-next-line -->
 - [ ] exécuter l'application avec un navigateur moderne à l'URL [http://localhost:3000](http://localhost:3000)
   - [ ] démarrer une partie avec un joueur
   - [ ] essayer le bouton pour jouer
