@@ -13,7 +13,7 @@
         "test-lab0": "jest --colors --coverage lab0.test.ts",
         "testj-lab0": "jest --json  --outputFile=report_test_stats.json lab0.test.ts",
         "testh-lab0": "jest --json  --outputFile=report_test_stats.html lab0.test.ts",
-        "test-squelette": "jest --colors --coverage \"[^lab0].test.ts\"",
+        "test-squelette": "jest --colors --coverage --testPathIgnorePatterns=lab0.test.ts",
         "uml-classes-puml": "tplant -i src/app.ts -A -o docs/modeles/App.puml",
         "uml-classes-svg": "tplant -i src/app.ts -A -o docs/modeles/App.svg",
         "circular": "madge src/app.ts -c",
