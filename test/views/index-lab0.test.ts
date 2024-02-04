@@ -16,7 +16,7 @@ describe('views/index.pug', () => {
 
 describe('views/stats.pug', () => {
 
-  it("devrait ne pas avoir la colonne ration en commentaire ", () => {
+  it("devrait ne pas avoir la colonne ratio en commentaire ", () => {
     expect(contentClassement.includes(`//- td(style="text-align: right; font-family: monospace") #{joueur.ratio.toFixed(8)}`)).toBeFalsy();
     expect(contentClassement.includes(`  td(style="text-align: right; font-family: monospace") #{joueur.ratio.toFixed(8)}`)).toBeTruthy();
   });
