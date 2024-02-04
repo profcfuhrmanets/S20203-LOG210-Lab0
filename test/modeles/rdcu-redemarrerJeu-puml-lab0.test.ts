@@ -1,7 +1,7 @@
 
 import 'jest-extended';
 import { readFileSync } from 'fs';
-const path = require('path');
+import path from 'path';
 
 let content = ""
 beforeAll(async () => {

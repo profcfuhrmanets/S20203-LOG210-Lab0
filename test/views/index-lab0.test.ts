@@ -1,6 +1,6 @@
 import 'jest-extended';
 import { readFileSync } from 'fs';
-const path = require('path');
+import path from 'path';
 
 const indexPugFilename = path.join('views', 'index.pug')
 const contentIndex = readFileSync(indexPugFilename, 'utf-8');
