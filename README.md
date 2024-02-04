@@ -346,8 +346,8 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
   ```
   PASS  test/modeles/dcu-puml-lab0.test.ts
     docs/modeles/dcu.puml
-      √ should contain (Redémarrer) as R #powderblue (1 ms)
-      √ should contain J -- R (1 ms)
+      √ devrait contenir (Redémarrer) as R #powderblue (1 ms)
+      √ devrait contenir J -- R (1 ms)
 
   Test Suites: 1 passed, 1 total
   Tests:       2 passed, 2 total

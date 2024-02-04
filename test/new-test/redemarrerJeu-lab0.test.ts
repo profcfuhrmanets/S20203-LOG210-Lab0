@@ -9,7 +9,7 @@ beforeAll(async () => {
 });
 
 describe('redemarrerJeu.test.ts', () => {
-  it("should contain \"get('/api/v1/jeu/redemarrerJeu')\"", () => {
+  it("devrait contenir \"get('/api/v1/jeu/redemarrerJeu')\"", () => {
     expect(content.includes("get('/api/v1/jeu/redemarrerJeu')")).toBeTruthy();
   });
 

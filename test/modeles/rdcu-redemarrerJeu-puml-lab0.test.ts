@@ -10,19 +10,19 @@ beforeAll(async () => {
 });
 
 describe('docs/modeles/rdcu-redemarrerJeu.puml', () => {
-  it("should contain :JeuDeDes", () => {
+  it("devrait contenir :JeuDeDes", () => {
     expect(content.includes(":JeuDeDes")).toBeTruthy();
   });
 
-  it("should contain joueurs:", () => {
+  it("devrait contenir joueurs:", () => {
     expect(content.includes("joueurs:")).toBeTruthy();
   });
 
-  it("should contain Map<String, Joueur>", () => {
+  it("devrait contenir Map<String, Joueur>", () => {
     expect(content.includes("Map<String, Joueur>")).toBeTruthy();
   });
 
-  it("should contain redemarrerJeu()", () => {
+  it("devrait contenir redemarrerJeu()", () => {
     expect(content.includes("redemarrerJeu()")).toBeTruthy();
   });
 });

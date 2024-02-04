@@ -8,7 +8,7 @@ const classementPugFilename = path.join('views', 'stats.pug')
 const contentClassement = readFileSync(classementPugFilename, 'utf-8');
 
 describe('views/index.pug', () => {
-  it("should contain button#redemarrer Redémarrer", () => {
+  it("devrait contenir button#redemarrer Redémarrer", () => {
     expect(contentIndex.includes("button#redemarrer Redémarrer")).toBeTruthy();
   });
 
