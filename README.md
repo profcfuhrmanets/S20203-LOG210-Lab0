@@ -232,7 +232,6 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 
   - Dans le terminal, `npm start`
 
-<!-- markdown-link-check-disable-next-line -->
 - [ ] exécuter l'application avec un navigateur moderne à l'URL [http://localhost:3000](http://localhost:3000)
   - [ ] démarrer une partie avec un joueur
   - [ ] essayer le bouton pour jouer
@@ -277,7 +276,7 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.md](docs/Squelette.md). Dans cette étape, vous devez:
 
 - [ ] dans le fichier `docs/Squelette.md` qui sert de documentation, ajouter les informations pour vous identifier dans la section **Identification de l'étudiant**.  
-  Vérifier le travail avec le test, `npx jest --colors dcu-puml-lab0.test.ts`
+  Vérifier le travail avec le test, `npx jest --colors identification-lab0.test.ts`
 
 - [ ] dans le fichier `docs/Squelette.md`, ajouter le cas d'utilisation *Redémarrer* (texte) juste après [le texte du cas d'utilisation *Jouer aux dés*](docs/Squelette.md#jouer-aux-dés):
 
@@ -369,7 +368,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
   Faire un diagramme en PlantUML qui ressemble à ceci:  
   ![DSS pour le scénario Redémarrer](https://www.plantuml.com/plantuml/svg/0/NOynQWD134NxEOLmvHGXlJ6B0waCQRAGNin-6v4TpKRI52RuFl4vzcAPf4c8Yjyy_d_euC4MhSp9tqGNDYxaSPdHqoJ_8nDEtEOuLGtb0dg5JQpyjult1isWZqJzdk7EPppESbRAq82bQmg9BdWQHrfgC_gMvVMcR59fByCBflLMs0osVv0XSOvgjDaTQqEp3R5JJbqNacLXZOx6YyVwMV03FUNxmMb7zZjqHDlU9Jf0f_xI5m00 "DSS pour le scénario Redémarrer")
 
-- [ ] prendre connaissance des postconditions du contrat d'opération
+- [ ] prendre connaissance de la postcondition du contrat d'opération :
 
   > Toutes les instances de Joueur en cours ont été supprimées.
 
@@ -441,7 +440,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
 
 - [ ] vérifier que TOUS les tests des fonctionnalités de base passent (Node.js)
 
-  `npx jest --colors --coverage "[^lab0].test.ts"` devrait indiquer que tous les tests passent.
+  `npx jest --colors --coverage --testPathIgnorePatterns=lab0.test.ts` devrait indiquer que tous les tests passent.
 
 - [ ] ajouter le bouton dans `views/index.pug` (PugJS.org)
 
@@ -525,7 +524,7 @@ Il existe un lien dans la barre de navigation «Classement» pour la page `/stat
 ### 7. Pratiquer ce qui a été appris
 
 - [ ] Modifier le cas d'utilisation *Jouer aux dés* pour que le joueur lance **trois** dés plutôt que deux et la condition pour gagner soit que le *total soit inférieur ou égal à 10*. Il faut passer par toutes les étapes, y compris modifier le MDD, les contrats, les RDCU, les tests et le code. Cependant, cette fois-ci vous devez vous débrouiller, en vous référant à des étapes plus haut.
-  > ⚠️Certains tests de base du squelette lancés par `npx jest --colors --coverage "[^lab0].test.ts"` ne seront plus bons, car ils valident les fonctionnalités du jeu avec **deux** dés.
+  > ⚠️Certains tests de base du squelette lancés par `npx jest --colors --coverage --testPathIgnorePatterns=lab0.test.ts` ne seront plus bons, car ils valident les fonctionnalités du jeu avec **deux** dés.
   > Il faut les modifier pour la nouvelle fonctionnalité avec **trois** dés.
   > Certains de ces tests sont plus difficiles à faire passer, notamment ceux dans `test/core/jeuDeDes.test.ts` qui valident les valeurs retournées par la méthode `brasser()`.
   > En fait, la [probabilité d'avoir certaines valeurs (ex. 3 et 18) avec trois dés](https://fr.wikipedia.org/wiki/Probabilit%C3%A9s_des_d%C3%A9s) est faible (ex. 1/216 ≈ 0.5 %).
@@ -555,7 +554,7 @@ Les tests associés à ce projet permettent de vérifier que la majorité des mo
 Il y a deux volets de la correction automatique avec les tests:
 
 - Documentation et fonctionnalités rajoutées: `npx jest --colors lab0.test.ts` (exécuter tous les tests ayant `lab0.test.ts` dans le nom)
-- Fonctionnalités de base du squelette: `npx jest --colors --coverage "[^lab0].test.ts"` (exécuter tous les tests **n'ayant pas** `lab0.test.ts` dans le nom et mesurer la couverture)
+- Fonctionnalités de base du squelette: `npx jest --colors --coverage --testPathIgnorePatterns=lab0.test.ts` (exécuter tous les tests **n'ayant pas** `lab0.test.ts` dans le nom et mesurer la couverture)
 
 Assurez-vous qu'aucun test n'est en échec et que la couverture de test (`branches`) est de 100% pour la commande `npx jest --colors --coverage`.
 
