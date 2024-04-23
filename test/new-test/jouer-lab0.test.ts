@@ -1,6 +1,6 @@
 import 'jest-extended';
 import { readFileSync } from 'fs';
-const path = require('path');
+import path from 'path';
 
 let content = ""
 beforeAll(async () => {
@@ -9,7 +9,7 @@ beforeAll(async () => {
 });
 
 describe('test/routes/jeuRouter-jouer.test.ts', () => {
-  it("should contain expect(response.body.resultat.v3).toBeWithin(1, 7)", () => {
+  it("devrait contenir expect(response.body.resultat.v3).toBeWithin(1, 7)", () => {
     expect(content.includes("expect(resultat.v3).toBeWithin(1, 7)")).toBeTruthy();
   });
 });

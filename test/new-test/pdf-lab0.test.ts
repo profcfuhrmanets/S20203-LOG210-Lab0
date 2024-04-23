@@ -1,6 +1,6 @@
 import 'jest-extended';
 import { readFileSync } from 'fs';
-const path = require('path');
+import path from 'path';
 
 const filename = path.join('docs', 'lab0.pdf');
 let content = '';

@@ -1,6 +1,7 @@
 import 'jest-extended';
 import { readFileSync } from 'fs';
-const path = require('path');
+import path from 'path';
+const nbMotsDirectives = 147;
 
 let content = ""
 beforeAll(async () => {
@@ -9,8 +10,8 @@ beforeAll(async () => {
 });
 
 describe('docs/experience-parasites-mollassons.md', () => {
-    it("devrait contenir au moins 300 mots (sans les 115 dans les directives)", () => {
-        expect(wordCount(content)).toBeGreaterThanOrEqual(300 + 115);
+    it(`Doit contenir au moins 300 mots (sans les ${nbMotsDirectives} dans les directives)`, () => {
+        expect(wordCount(content)).toBeGreaterThanOrEqual(300 + nbMotsDirectives);
     });
 });
 

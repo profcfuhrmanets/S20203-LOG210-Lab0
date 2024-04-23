@@ -1,6 +1,6 @@
 import 'jest-extended';
 import { readFileSync } from 'fs';
-const path = require('path');
+import path from 'path';
 
 let content = ""
 beforeAll(async () => {
@@ -9,15 +9,15 @@ beforeAll(async () => {
 });
 
 describe('docs/modeles/dss-redemarrerJeu.puml', () => {
-  it("should contain Joueur", () => {
+  it("devrait contenir Joueur", () => {
     expect(content.includes("Joueur")).toBeTruthy();
   });
 
-  it("should contain Système", () => {
+  it("devrait contenir Système", () => {
     expect(content.includes("Système")).toBeTruthy();
   });
 
-  it("should contain redemarrerJeu()", () => {
+  it("devrait contenir redemarrerJeu()", () => {
     expect(content.includes("redémarrerJeu()")).toBeTruthy();
   });
 

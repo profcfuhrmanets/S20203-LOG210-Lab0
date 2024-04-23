@@ -1,6 +1,6 @@
 import 'jest-extended';
 import { readFileSync } from 'fs';
-const path = require('path');
+import path from 'path';
 
 let content = ""
 beforeAll(async () => {
@@ -10,11 +10,11 @@ beforeAll(async () => {
 });
 
 describe('docs/modeles/dcu.puml', () => {
-  it("should contain (Redémarrer) as R #powderblue", () => {
+  it("devrait contenir (Redémarrer) as R #powderblue", () => {
     expect(content.includes("(Redémarrer) as R #powderblue")).toBeTruthy();
   });
 
-  it("should contain J -- R", () => {
+  it("devrait contenir J -- R", () => {
     expect(content.includes("J -- R")).toBeTruthy();
   });
 

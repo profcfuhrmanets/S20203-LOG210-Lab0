@@ -1,6 +1,6 @@
 import 'jest-extended';
 import { readFileSync } from 'fs';
-const path = require('path');
+import path from 'path';
 
 let content = ""
 beforeAll(async () => {
@@ -9,19 +9,19 @@ beforeAll(async () => {
 });
 
 describe('src/routes/jeuRouter.ts', () => {
-  it("should contain this._router.get('/redemarrerJeu', this.redemarrerJeu.bind(this))", () => {
+  it("devrait contenir this._router.get('/redemarrerJeu', this.redemarrerJeu.bind(this))", () => {
     expect(content.includes("this._router.get('/redemarrerJeu', this.redemarrerJeu.bind(this))")).toBeTruthy();
   });
 
-  it("should contain redemarrerJeu(req: Request, res: Response, next: NextFunction) {", () => {
+  it("devrait contenir redemarrerJeu(req: Request, res: Response, next: NextFunction) {", () => {
     expect(content.includes("redemarrerJeu(req: Request, res: Response, next: NextFunction) {")).toBeTruthy();
   });
 
-  it("should contain this._controleurJeu.redemarrerJeu()", () => {
+  it("devrait contenir this._controleurJeu.redemarrerJeu()", () => {
     expect(content.includes("this._controleurJeu.redemarrerJeu()")).toBeTruthy();
   });
 
-  it("should contain resultat.v3", () => {
+  it("devrait contenir resultat.v3", () => {
     expect(content.includes("resultatObj.v3")).toBeTruthy();
   });
 });
