@@ -9,9 +9,11 @@
     "typeRoots": ["src/types", "node_modules/@types"]
   },
   "include": [
-    "src/**/*.ts", "global.d.ts"
+    "src/**/*.ts",
+    "global.d.ts"
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "files": ["global.d.ts"]
 }
