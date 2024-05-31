@@ -557,7 +557,7 @@ Il y a deux volets de la correction automatique avec les tests:
 - Documentation et fonctionnalités rajoutées: `npx jest --colors lab0.test.ts` (exécuter tous les tests ayant `lab0.test.ts` dans le nom)
 - Fonctionnalités de base du squelette: `npx jest --colors --coverage --testPathIgnorePatterns=lab0.test.ts` (exécuter tous les tests **n'ayant pas** `lab0.test.ts` dans le nom et mesurer la couverture)
 
-Assurez-vous qu'aucun test n'est en échec et que la couverture de test (`branches`) est de 100% pour la commande `npx jest --colors --coverage`.
+Assurez-vous qu'aucun test n'est en échec et que la couverture de test (`branches`) est de 100 % (la couverture donne quelques points bonis) pour la commande `npx jest --colors --coverage`.
 
 **Important:**
 La seule rétroaction pour ce laboratoire est à travers les commandes ci-dessus.
@@ -579,13 +579,14 @@ Le calcul de la note du laboratoire se fait à partir des résultats des tests a
 | variable | explication |
 |:-:|:-|
 | $e$ | 10 points si vous avez complété un texte d'au moins 300 mots dans `docs/experience-parasites-mollassons.md` (sinon 0 point)|
-| $b$ | nombre de nouveaux boutons fonctionnels (max 1)^*^|
-| $c$ | 10 points si la page de classement fonctionne correctement (sinon 0 point)^*^ |
-| $C$ | 10 points multipliés par la couverture de test de toutes les branches^*^ |
+| $b$ | nombre de nouveaux boutons fonctionnels (max 1)[^1]|
+| $c$ | 10 points si la page de classement fonctionne correctement (sinon 0 point)<sup>[\[1\]](#footnote1)</sup> |
+| $C$ | 10 points (bonis) multipliés par la couverture (%) de test de toutes les branches<sup>[\[1\]](#footnote1)</sup> |
 | $v$ | nombre de tests valides ("passed")|
 | $d$ | nombre de tests déjà valides au début du projet|
 | $t$ | nombre total de tests |
 
-^*^évaluation faite par l'auxiliaire d'enseignement
+<a id="footnote1"></a>
+[^1]: évaluation faite par l'auxiliaire d'enseignement
 
-$$\textup{Note}=\frac{e+6b+c+C+v-d}{10+6+10+10+t-d}100$$
+$$\textup{Note}=\frac{e+6b+c+C+v-d}{10+6+10+t-d}100$$
