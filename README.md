@@ -589,4 +589,4 @@ Le calcul de la note du laboratoire se fait à partir des résultats des tests a
 <a id="footnote1"></a>
 [^1]: évaluation faite par l'auxiliaire d'enseignement
 
-$$\textup{Note}=\frac{e+6b+c+C+v-d}{10+6+10+t-d}100$$
+$$\textup{Note}=\frac{e+b+c+C+v-d}{10+6+10+t-d}100$$
