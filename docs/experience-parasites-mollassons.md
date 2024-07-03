@@ -1,6 +1,6 @@
 # Expérience - travail en équipe
 
-Lisez le texte [« Faire face aux parasites et aux mollassons dans une équipe »](https://docs.google.com/document/d/e/2PACX-1vRWTtdcGjUg34gqB6CW_EMt0H28Cgunq09_7HxMUoTLGERjUcQXBHlrYyB76PYJGjtaoYJhhsHS1Tjj/pub)
+Lisez le texte [« Faire face aux parasites et aux mollassons dans une équipe »](https://etsmtl365-my.sharepoint.com/:w:/g/personal/christopher_fuhrman_etsmtl_ca/EcmQ4mhrCt5Ml9FUOiAPMmQBqtH3Z65GXrMLngDaeRCP8g?e=8JXrlf)
 
 Écrivez une réponse originale (le [règlement sur le plagiat](https://www.etsmtl.ca/Etudes/citer-pas-plagier) s'y applique) à ce texte.
 La réponse doit faire un lien avec les éléments dans le texte et vos expériences passées avec le travail en équipe.
