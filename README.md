@@ -545,7 +545,7 @@ Il existe un lien dans la barre de navigation «Classement» pour la page `/stat
 Il peut arriver qu'une équipe soit composée des personnes qui travaillent beaucoup moins que les autres.
 Pour vous sensibiliser aux problèmes typiques et vous outiller à agir rapidement en cas de difficultés, il y a un texte à lire et à intérioriser.
 
-- [ ] Lire le texte [Faire face aux parasites et aux mollassons dans une équipe](https://docs.google.com/document/d/e/2PACX-1vRWTtdcGjUg34gqB6CW_EMt0H28Cgunq09_7HxMUoTLGERjUcQXBHlrYyB76PYJGjtaoYJhhsHS1Tjj/pub)
+- [ ] Lire le texte [Faire face aux parasites et aux mollassons dans une équipe](https://etsmtl365-my.sharepoint.com/:w:/g/personal/christopher_fuhrman_etsmtl_ca/EcmQ4mhrCt5Ml9FUOiAPMmQBqtH3Z65GXrMLngDaeRCP8g?e=8JXrlf)
 - [ ] Écrire une réponse dans le fichier `docs/experience-parasites-mollassons.md` du dépôt suivant les directives dans ce fichier.
 
 ### 10. Vérifier la correction automatique
